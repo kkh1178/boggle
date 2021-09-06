@@ -1,7 +1,8 @@
 import React from "react";
 import Button from "./Button";
 
-const WordSubmit = () => {
+const WordSubmit = ({ dice }) => {
+    console.log(dice);
     return (
         <div>
             <span>
