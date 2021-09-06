@@ -1,14 +1,13 @@
 import React from "react";
-import Button from "./Button";
+import { Button } from "semantic-ui-react";
 
 const WordSubmit = ({ dice }) => {
-    console.log(dice);
     return (
         <div>
             <span>
                 <strong>Current Word: </strong>
-                <Button></Button>
             </span>
+            <Button primary>Submit Word</Button>
         </div>
     );
 };
