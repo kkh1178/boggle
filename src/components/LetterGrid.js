@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 
 const LetterGrid = ({ dice }) => {
-    // console.log("LetterGrid", dice);
     const [letters, setLetters] = useState(null);
 
     useEffect(() => {
